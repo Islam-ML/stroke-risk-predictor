@@ -1,4 +1,3 @@
-# README.md
 readme_text = """
 # Stroke Risk Predictor 🧠
 
@@ -10,10 +9,6 @@ readme_text = """
 ## Overview
 This project is a Stroke Risk Prediction Web App built using Python, Scikit-learn, and Gradio.
 """
-
-with open("README.md", "w") as f:
-    f.write(readme_text)
-
 # requirements.txt
 requirements = """
 pandas
@@ -26,8 +21,4 @@ seaborn
 gradio
 joblib
 """
-
-with open("requirements.txt", "w") as f:
-    f.write(requirements)
-
-print("✅ README.md and requirements.txt created")
+)
